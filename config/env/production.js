@@ -4,7 +4,7 @@ module.exports = {
   secure: true,
   port: process.env.PORT || 8443,
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://bhuvan:bhuvan@ds059644.mlab.com:59644/bookingapp') + '/mean',
     options: {
       user: '',
       pass: ''
@@ -32,8 +32,8 @@ module.exports = {
     callbackURL: '/api/auth/twitter/callback'
   },
   google: {
-    clientID: process.env.GOOGLE_ID || 'APP_ID',
-    clientSecret: process.env.GOOGLE_SECRET || 'APP_SECRET',
+    clientID: process.env.GOOGLE_ID || '562239098143-2ld8r99avl3hhdabghf5k5rrfde2u8pg.apps.googleusercontent.com',
+    clientSecret: process.env.GOOGLE_SECRET || 'lnOuUKxaXfJk-emSusdcsNgJ',
     callbackURL: '/api/auth/google/callback'
   },
   linkedin: {
