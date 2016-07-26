@@ -122,10 +122,10 @@ exports.oauthCallback = function (strategy) {
         }
         //store the access token and calendarId in our session
         req.session.accessToken = _accessToken;
-        req.session.calendarId = user._json.emails[0].value;
+        req.session.calendarId = user._doc.email;
 
         res.cookie('profile', user);
-        return res.redirect(redirectURL || sessionRedirectURL || '/');
+        return res.redirect(redirectURL  || '/callback');
       });
     })(req, res, next);
   };
