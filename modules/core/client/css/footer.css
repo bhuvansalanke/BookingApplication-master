@@ -1,0 +1,215 @@
+.footer-distributed{
+<<<<<<< HEAD
+	background-color: #00A89C;
+=======
+<<<<<<< HEAD
+	background-color: #00A89C;
+=======
+	background-color: lightgray;
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+    bottom:0;
+	padding: 10px 30px;
+	margin-top: 80px;
+    font-size: 10pt;
+    position: absolute;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+<<<<<<< HEAD
+     color: #ffffff;
+=======
+<<<<<<< HEAD
+     color: #ffffff;
+=======
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+    margin-top: 5px;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+	
+}
+
+.footer-distributed .footer-company-name{
+	color:  #ffffff;
+<<<<<<< HEAD
+=======
+=======
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 30%;
+    float: center;
+    margin-top: 5px;
+<<<<<<< HEAD
+
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+}
+
+
+.footer-distributed .footer-center p a{
+    font-size: 14px;
+<<<<<<< HEAD
+	color: #ffffff;
+=======
+<<<<<<< HEAD
+	color: #ffffff;
+=======
+	color: #8f9296;
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+    font-weight: normal;
+	text-decoration: none;
+    margin: 0;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	float: right;
+    margin-top: 3px;
+<<<<<<< HEAD
+	
+=======
+<<<<<<< HEAD
+	
+=======
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+}
+
+.footer-distributed .footer-icons{
+    margin: 0;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
+		
+}
+
+ @media only screen and (max-width: 1216px)  {
+	
+		/* .footer-center p a{
+			 margin-left: -13%
+		 }
+		 .footer-icons a{
+			margin-left: 0%      margin-right: -6px;
+		 }*/
+ }
+ 
+  @media only screen and (max-width: 910px)  {
+	.footer-distributed .footer-company-name{
+	    margin-left: -20px;
+	}
+	
+	.footer-distributed .footer-right{
+	
+		margin-right: -20px
+}
+
+.footer-distributed .footer-center{
+	
+		margin-right: -20px
+}
+ }
+ 
+  @media only screen and (max-width: 985px)  {
+	.footer-distributed .footer-company-name{
+	    margin-left: -20px;
+	}
+	
+	.footer-distributed .footer-right{
+	
+		margin-right: -20px
+}
+
+.footer-distributed .footer-center{
+	
+		margin-right: -20px
+}
+ }
+ 
+ 
+/* 480 screen below  all fontsize for Mobile */
+  /*  @media only screen and (max-width: 480px){
+		
+		.footer-distributed{
+			display: none;
+		}
+        
+ 
+<<<<<<< HEAD
+	} */
+=======
+	} */
+=======
+
+}
+>>>>>>> 3f230c6b331f02a2ca632f31379b0e1aa3612386
+>>>>>>> f57e6ae079db3192a5701f6dcbe3223465f12be8
