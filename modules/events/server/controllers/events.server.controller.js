@@ -103,7 +103,7 @@ function getAccessToken()
       var currentTime = today.getTime();
       if(currentTime < settings.google_access_token_expiration)
       {
-         deferred.resolve(settings)
+         deferred.resolve(settings);
       }
       else
       {

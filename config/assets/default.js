@@ -34,8 +34,6 @@ module.exports = {
         'public/lib/angular-cookies/angular-cookies.js',
         'public/lib/angular-filter/dist/angular-filter.min.js',
         'public/lib/angular-multi-select-alexandernst/dist/angular-multi-select.js',
-        'public/lib/angular-strap/dist/angular-strap.min.js',
-        'public/lib/angular-strap/dist/angular-strap.tpl.min.js',
         'public/lib/jquery-timepicker-jt/jquery.timepicker.min.js',
         'public/lib/angular-jquery-timepicker/src/timepickerdirective.js',
         'public/lib/angular-aria/angular-aria.js',
