@@ -14,7 +14,6 @@ var ApplicationConfiguration = (function () {
     'ui.calendar',
     'GoogleCalendarService',
     'EventUtil',
-    'mgcrea.ngStrap',
     'ui.timepicker',
     'ngMaterial',
     'angularMoment',
