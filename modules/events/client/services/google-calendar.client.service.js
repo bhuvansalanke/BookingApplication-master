@@ -3,12 +3,12 @@
 
 angular.module('GoogleCalendarService', [], function($provide){
 
-	$provide.factory('$googleCalendar', function($http, $q){
+	$provide.factory('$googleCalendar', function($http, $q, $location){
 
 		var $scope = angular.element(document).scope();
 
 		//the url where our node.js application is located
-		var baseUrl = 'http://localhost:3000'; //  var baseUrl = 'http://192.168.1.14:3000';
+		var baseUrl = $location.protocol() + '://' + location.host;
 
 		return {
 			load: function(){

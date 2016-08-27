@@ -1,12 +1,13 @@
 <section class="container" ng-controller="BookController as bookCtrl">
-<div layout="row" layout-xs="column" ng-controller="EventsCreateController as createEventCtrl"
-        data-ng-init="load()">
+<div layout="row" layout-xs="column" ng-controller="EventsCreateController as createEventCtrl">
+    
     <div flex-gt-sm="33" flex="100" layout-margin class="panel panel-body panel-left">
         <p class="fName pad-right"><h3>{{ dentist.fName + ' ' + dentist.lName}}</h3></p>
         <p class="speciality">{{ dentist.speciality }}</p>
         <br>
         <p class="treatment"> <strong>Treatment: </strong> {{ treatment.description }}</p>
     </div>
+    
     <div flex-gt-sm="66" flex="100" layout-margin class="panel panel-body">
         <br> 
         <form name="patientForm">

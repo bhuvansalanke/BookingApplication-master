@@ -684,10 +684,6 @@ eventCreateApp.controller('EventsCreateController',
                 buttonText: 'Calendar'
             });
 
-            $scope.load = function() {
-                $googleCalendar.load();
-            };
-
             //Book an appointment            
             this.addEvent = function() {
 
@@ -918,12 +914,12 @@ angular.module('EventUtil', [])
 
 angular.module('GoogleCalendarService', [], ["$provide", function($provide){
 
-	$provide.factory('$googleCalendar', ["$http", "$q", function($http, $q){
+	$provide.factory('$googleCalendar', ["$http", "$q", "$location", function($http, $q, $location){
 
 		var $scope = angular.element(document).scope();
 
 		//the url where our node.js application is located
-		var baseUrl = 'http://localhost:3000'; //  var baseUrl = 'http://192.168.1.14:3000';
+		var baseUrl = $location.protocol() + '://' + location.host;
 
 		return {
 			load: function(){
